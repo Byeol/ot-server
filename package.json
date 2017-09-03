@@ -1,0 +1,28 @@
+{
+  "name": "ot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "ot-text": "^1.0.1",
+    "sharedb": "^1.0.0-beta.7",
+    "sharedb-logger": "^0.1.4",
+    "ts-node": "^3.3.0",
+    "websocket-json-stream": "0.0.3",
+    "ws": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/node": "^8.0.26",
+    "@types/ws": "^3.0.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
